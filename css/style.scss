@@ -1,1 +1,58 @@
 @import "normalize";
+
+$gold: #9c6804;
+
+body {
+	background-color: $gold;
+	font-family: "kepler-std-extended-display", serif;
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+	margin: 1em auto;
+	padding: 1em;
+	font-weight: normal;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+h2 {
+	color: #fff;
+	text-align: center;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+}
+
+@media (min-width: 666px) and (max-width: 1099px) {
+	body {
+		background-color: #fff;
+	}
+
+	h1 {
+		font-size: 3em;
+		color: $gold;
+	}
+
+	h2 {
+		color: $gold;
+		letter-spacing: 0.1em;
+	}
+}
+
+@media (min-width: 1100px) {
+	body {
+		background-color: #fff;
+	}
+
+	h1 {
+		font-size: 4em;
+		color: $gold;
+		letter-spacing: 0.2em;
+	}
+
+	h2 {
+		color: $gold;
+	}
+}
