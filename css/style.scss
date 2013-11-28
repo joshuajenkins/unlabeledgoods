@@ -3,12 +3,12 @@
 $gold: #9c6804;
 
 body {
-	background-color: $gold;
+	background-color: #fff;
 	font-family: "kepler-std-extended-display", serif;
 }
 
 h1 {
-	color: #fff;
+	color: $gold;
 	text-align: center;
 	margin: 1em auto;
 	padding: 1em;
@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-	color: #fff;
+	color: $gold;
 	text-align: center;
 	font-weight: normal;
 	letter-spacing: 0.1em;
@@ -32,11 +32,9 @@ h2 {
 
 	h1 {
 		font-size: 3em;
-		color: $gold;
 	}
 
 	h2 {
-		color: $gold;
 		letter-spacing: 0.1em;
 	}
 }
@@ -48,11 +46,6 @@ h2 {
 
 	h1 {
 		font-size: 4em;
-		color: $gold;
-		letter-spacing: 0.2em;
-	}
-
-	h2 {
-		color: $gold;
+		letter-spacing: 0.12em;
 	}
 }
